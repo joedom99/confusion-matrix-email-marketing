@@ -15,6 +15,7 @@ It includes two examples:
 
 ## 📂 Files Included
 - `generate_synthetic_datasets.R` — R script to create and save both balanced and unbalanced synthetic datasets.
+- `balanced-vs-unbalanced-data-example-email-opens.R` - R script to create bar plots of the datasets for the blog article.
 - `evaluate_confusion_matrix.R` — Main R script to:
   - Load datasets.
   - Run logistic regression.
