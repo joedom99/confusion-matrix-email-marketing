@@ -23,6 +23,9 @@ evaluate_dataset <- function(filename, dataset_name) {
   
   # Step 1: Load the Dataset
   data <- read.csv(filename)
+  data$send_time <- as.factor(data$send_time)
+  data$day_of_week <- as.factor(data$day_of_week)
+  data$customer_segment <- as.factor(data$customer_segment)
   data$opened <- as.factor(data$opened)
   print(head(data))
   
@@ -35,6 +38,7 @@ evaluate_dataset <- function(filename, dataset_name) {
   model <- glm(opened ~ subject_length + send_time + day_of_week + 
                  customer_segment + previous_opens,
                data = train_data, family = binomial)
+  print(summary(model))
   
   # Step 4: Predict on Test Data
   pred_probs <- predict(model, test_data, type = "response")
