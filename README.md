@@ -31,7 +31,7 @@ It includes two examples:
 
 ## 📖 Blog Post
 This project accompanies the blog post:
-[Confused? Don’t Worry, Your Marketing Model Is Too. Here’s How a Confusion Matrix Can Help (with Example R Code)](https://blog.marketingdatascience.ai) *(update with your final post URL once published)*
+[Confused? Don’t Worry, Your Marketing Model Is Too. Here’s How a Confusion Matrix Can Help (with Example R Code)]([https://blog.marketingdatascience.ai](https://blog.marketingdatascience.ai/confused-dont-worry-your-marketing-model-is-too-here-s-how-a-confusion-matrix-can-help-63c017375de4))
 
 ## 📜 License
 MIT License. See LICENSE file for details.
